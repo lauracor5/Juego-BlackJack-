@@ -1,0 +1,29 @@
+*{
+    background-color: #4AA96C;
+}
+
+.titulo{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+}
+
+.direccion{
+    padding: 5px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.carta{
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#computadora-cartas, #jugador-cartas{
+    height: 250px;
+}

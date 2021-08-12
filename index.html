@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+    <div class="titulo">
+        </h1>BlackJack</h1>
+    </div>
+
+    <section class="direccion">
+        <div id="divBotones" class="botones">
+            <button class="btn btn-danger" id="btn-juegoNuevo">Nuevo Juego</button>
+            <button class="btn btn-primary" id="btn-pedirCarta">Pedir Carta</button>
+            <button class="btn btn-primary" id="btn-detener">Detener</button>
+        </div>
+    </section>
+
+    <section>
+        <div class="row container">
+            <div class="col text-light">
+                <h1>Jugador 1 - <small>0</small></h1>
+            </div>
+            <div id="jugador-cartas">
+            </div>
+        </div>
+        <div class="row container mt-2">
+            <div class="col text-light">
+                <h1>Computadora - <small>0</small></h1>
+            </div>
+            <div id="computadora-cartas">
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+        <script src="js/underscore-min.js"></script>
+    <script type="text/javascript" src="js/juego.js"></script>
+
+</body>
+
+</html>
